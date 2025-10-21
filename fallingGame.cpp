@@ -1,5 +1,5 @@
 #include "raylib.h"
-# include <algorithm>
+#include <algorithm>
 
 #if defined(PLATFORM_WEB)
     #include <emscripten/emscripten.h>
