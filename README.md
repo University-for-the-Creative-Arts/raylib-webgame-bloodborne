@@ -1,4 +1,9 @@
 # Commentary
+
+<iframe frameborder="0" src="https://itch.io/embed/3976719" width="552" height="167"><a href="https://squlddy.itch.io/falling-game">Falling Game by squiddy</a></iframe>
+
+</p>
+
 For this project, I created a small web-based game where the player must avoid objects falling from the sky. The core idea was to make something fast, simple, and fun while also learning how to export a C++/Raylib game to the web using Emscripten. Although the game mechanics were straightforward, most of the development time ended up being spent dealing with build issues and the web-export pipeline.
 
 The gameplay itself is simple: the player controls a character that can move left and right while objects fall from above at increasing speed. The main challenge was making the movement and collision feel responsive. Raylib made this easier because it provides simple functions for drawing shapes, checking collisions, and handling input. The falling objects are stored in a small array, and each one updates its position every frame, resetting when it falls off the screen. Even though the mechanics are basic, I still had to tweak the spawn rate and fall speed to get the right level of difficulty.
